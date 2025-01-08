@@ -1,0 +1,23 @@
+{
+  "name": "invitacion",
+  "version": "1.0.0",
+  "main": "logic.js",
+  "scripts": {
+    "sass-watch": "sass --no-source-map --watch styles/main.scss public/css/main.css",
+    "nodemon-watch": "nodemon index.js -e *",
+    "dev": "npm-run-all --parallel sass-watch nodemon-watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "animejs": "^3.2.2",
+    "express": "^4.21.2",
+    "invitacion": "file:",
+    "sass": "^1.83.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9",
+    "npm-run-all": "^4.1.5"
+  }
+}

@@ -1,0 +1,467 @@
+body {
+  margin: 0px;
+  background-color: #FFFEF7;
+}
+
+.welcome-section {
+  position: relative;
+}
+.welcome-section__gradient {
+  display: flex;
+  align-items: flex-end;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-image: linear-gradient(to bottom, transparent 80%, #FFFEF7 93%);
+}
+.welcome-section__image {
+  width: 100%;
+  object-fit: contain;
+}
+.welcome-section__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.welcome-section__content__subtitle {
+  font-family: "Barlow Condensed", serif;
+  color: black;
+  font-size: 21px;
+  letter-spacing: 1.2px;
+  font-weight: 500;
+  margin: 0;
+  padding-bottom: 10px;
+  color: #37432b;
+}
+.welcome-section__content__title {
+  font-family: "Ms Madi", serif;
+  font-weight: bold;
+  color: black;
+  margin: 0;
+  letter-spacing: 4px;
+  font-size: 40px;
+  color: #687658;
+}
+
+.information-section {
+  display: flex;
+  flex-direction: column;
+  background-color: #FFFEF7;
+  align-items: center;
+  padding-top: 20px;
+  position: relative;
+}
+.information-section__image1 {
+  position: absolute;
+  left: -8%;
+  width: 120px;
+  top: 15%;
+}
+.information-section__image2 {
+  position: absolute;
+  right: -4%;
+  width: 110px;
+  top: 15%;
+}
+.information-section__verse {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.information-section__verse__content {
+  font-family: "Barlow Condensed", serif;
+  color: #B0BB98;
+  font-weight: 500;
+  width: 70%;
+  text-align: center;
+  margin-bottom: 4px;
+  position: relative;
+}
+.information-section__verse__citation {
+  font-family: "Barlow Condensed", serif;
+  color: #687658;
+  font-weight: 500;
+  width: 70%;
+  text-align: right;
+  margin-top: 4px;
+  position: relative;
+}
+.information-section__family {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.information-section__family__label {
+  font-family: "Barlow Condensed", serif;
+  color: #B0BB98;
+  font-weight: 500;
+  width: 80%;
+  text-align: center;
+  margin-bottom: 4px;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  width: 85%;
+  margin-top: 10px;
+}
+.information-section__family__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.information-section__family__container__title {
+  font-family: "Ms Madi", serif;
+  color: #687658;
+  font-size: 23px;
+  margin-bottom: 4px;
+  margin-top: 7px;
+  font-weight: 600;
+}
+.information-section__family__container__parents {
+  font-family: "Barlow Condensed", serif;
+  color: #B0BB98;
+  margin: 0;
+  font-weight: 500;
+  letter-spacing: 0.8px;
+  font-size: 17px;
+  font-weight: 600;
+}
+.information-section__conclution {
+  font-family: "Barlow Condensed", serif;
+  color: #B0BB98;
+  margin-top: 40px;
+  font-weight: 500;
+  letter-spacing: 0.8px;
+  width: 260px;
+  text-align: center;
+}
+
+.count-down-section {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.count-down-section__image {
+  width: 100%;
+}
+.count-down-section__content {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  background: rgba(243, 194, 202, 0.8);
+  width: 100%;
+  align-items: center;
+  bottom: 0%;
+  height: fit-content;
+}
+.count-down-section__content__title {
+  font-family: "Ms Madi", serif;
+  color: white;
+  font-size: 45px;
+  letter-spacing: 5px;
+  margin: 0;
+  font-weight: 600;
+  margin-top: 5px;
+}
+.count-down-section__content__count-down {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-evenly;
+  padding-bottom: 20px;
+}
+.count-down-section__content__count-down__column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.count-down-section__content__count-down__column__number {
+  font-family: "Barlow Condensed", serif;
+  color: #fff6c5;
+  font-size: 65px;
+  margin: 0;
+}
+.count-down-section__content__count-down__column__label {
+  font-family: "Barlow Condensed", serif;
+  color: white;
+  font-size: 25px;
+  margin: 0;
+}
+
+.calendar-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  background-color: #FFFEF7;
+}
+.calendar-section__title {
+  font-family: "Barlow Condensed", serif;
+  color: #B0BB98;
+  font-weight: 500;
+  font-size: 18px;
+  width: 260px;
+  text-align: center;
+}
+.calendar-section__header {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+  background-color: rgba(104, 118, 88, 0.5);
+}
+.calendar-section__header__title {
+  font-family: "Ms Madi", serif;
+  color: white;
+  font-size: 45px;
+  margin-top: 0;
+  margin-bottom: 13px;
+  letter-spacing: 4px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+.calendar-section__image {
+  padding: 15px 0 15px 0;
+}
+.calendar-section__flower {
+  position: absolute;
+  bottom: -26%;
+  left: -7%;
+  z-index: 1;
+}
+
+.location-section {
+  display: flex;
+  background-color: #FFFEF7;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+.location-section__flowers1 {
+  position: absolute;
+  top: -9%;
+  right: -8%;
+}
+.location-section__flowers2 {
+  position: absolute;
+  top: 25%;
+  left: -7%;
+}
+.location-section__flowers3 {
+  position: absolute;
+  bottom: -10%;
+  right: -8%;
+}
+.location-section__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 35px;
+}
+.location-section__card__icon {
+  width: 75px;
+}
+.location-section__card__title {
+  font-family: "Ms Madi", serif;
+  color: #687658;
+  margin: 0;
+  letter-spacing: 1.5px;
+  font-size: 23px;
+  padding-bottom: 5px;
+  margin-top: 7px;
+  font-weight: 600;
+}
+.location-section__card__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 205px;
+  padding-bottom: 7px;
+}
+.location-section__card__content__text {
+  font-family: "Barlow Condensed", serif;
+  margin: 0;
+  font-size: 17px;
+  text-align: center;
+}
+.location-section__button {
+  background-color: #63918B;
+  border-radius: 10px;
+  border: none;
+  font-family: "Barlow Condensed", serif;
+  color: white;
+  padding: 2px 15px;
+}
+
+.itinerary-section {
+  background-color: #91A55C;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.itinerary-section__title {
+  font-family: "Ms Madi", serif;
+  font-size: 65px;
+  font-weight: 500;
+  color: white;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+.itinerary-section__image {
+  margin-bottom: 40px;
+}
+
+.dress-code-section {
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+}
+.dress-code-section__image {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  position: sticky;
+  top: 0;
+}
+.dress-code-section__container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+.dress-code-section__card {
+  background-color: white;
+  opacity: 0.8;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 50px;
+  align-items: center;
+  padding: 15px;
+  border-radius: 12px;
+}
+.dress-code-section__card__icon {
+  width: 75px;
+}
+.dress-code-section__card__title {
+  font-family: "Ms Madi", serif;
+  color: #687658;
+  font-weight: 600;
+  font-size: 35px;
+  margin: 3px 0;
+}
+.dress-code-section__card__gender {
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+}
+.dress-code-section__card__gender.center {
+  align-items: center;
+}
+.dress-code-section__card__gender__title {
+  font-family: "Barlow Condensed", serif;
+  padding-right: 40px;
+  text-align: left;
+  font-weight: bold;
+  font-size: 17px;
+  margin: 10px 0;
+  width: 53px;
+}
+.dress-code-section__card__gender__content {
+  font-family: "Barlow Condensed", serif;
+  text-align: left;
+  font-size: 17px;
+  font-weight: 400;
+  margin: 10px 0;
+}
+.dress-code-section__card__gender__container {
+  display: flex;
+  flex-direction: row;
+}
+.dress-code-section__card__content {
+  font-family: "Barlow Condensed", serif;
+  text-align: left;
+  font-size: 17px;
+  font-weight: 400;
+}
+.dress-code-section__card__paragraph {
+  font-family: "Barlow Condensed", serif;
+  text-align: center;
+  font-size: 17px;
+  font-weight: 400;
+}
+.dress-code-section__card__subtitle {
+  font-family: "Barlow Condensed", serif;
+  text-align: center;
+  font-weight: bold;
+  font-size: 17px;
+}
+.dress-code-section__card__italic {
+  font-family: "Barlow Condensed", serif;
+  text-align: center;
+  font-size: 17px;
+  font-weight: 400;
+  font-style: italic;
+}
+.dress-code-section__card__qr {
+  width: 70px;
+}
+
+.confirmation-section {
+  background-color: #FFFEF7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 35px 0;
+}
+.confirmation-section__icon {
+  width: 75px;
+}
+.confirmation-section__title {
+  font-family: "Ms Madi", serif;
+  color: #687658;
+  font-weight: 600;
+  font-size: 40px;
+  margin: 3px 0;
+  letter-spacing: 2px;
+  width: 310px;
+  text-align: center;
+}
+.confirmation-section__text {
+  font-family: "Barlow Condensed", serif;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+  width: 310px;
+  text-align: center;
+}
+.confirmation-section__whatsapp {
+  display: flex;
+}
+.confirmation-section__media-whatsapp {
+  width: 25px;
+  padding-right: 10px;
+}
+.confirmation-section__button {
+  border-radius: 14px;
+  border-color: #687658;
+  border-width: 1px;
+  background-color: #CACFB8;
+  font-family: "Barlow Condensed", serif;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+  margin: 0px 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 3px 22px;
+}
+
+.footer-section {
+  width: 100%;
+}
